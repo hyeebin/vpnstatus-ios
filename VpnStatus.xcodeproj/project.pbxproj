@@ -13,6 +13,7 @@
 		B64DA2C62C2030CF00185868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64DA2C42C2030CF00185868 /* Main.storyboard */; };
 		B64DA2C82C2030D100185868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64DA2C72C2030D100185868 /* Assets.xcassets */; };
 		B64DA2CB2C2030D100185868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64DA2C92C2030D100185868 /* LaunchScreen.storyboard */; };
+		B64DA2D32C20325700185868 /* CheckVpnStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DA2D22C20325700185868 /* CheckVpnStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B64DA2C72C2030D100185868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B64DA2CA2C2030D100185868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B64DA2CC2C2030D100185868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64DA2D22C20325700185868 /* CheckVpnStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckVpnStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B64DA2C72C2030D100185868 /* Assets.xcassets */,
 				B64DA2C92C2030D100185868 /* LaunchScreen.storyboard */,
 				B64DA2CC2C2030D100185868 /* Info.plist */,
+				B64DA2D22C20325700185868 /* CheckVpnStatus.swift */,
 			);
 			path = VpnStatus;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B64DA2C32C2030CF00185868 /* ViewController.swift in Sources */,
+				B64DA2D32C20325700185868 /* CheckVpnStatus.swift in Sources */,
 				B64DA2BF2C2030CF00185868 /* AppDelegate.swift in Sources */,
 				B64DA2C12C2030CF00185868 /* SceneDelegate.swift in Sources */,
 			);
